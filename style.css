@@ -13,14 +13,14 @@ nav{
     margin: 0px 10px;
 }
 
-section{
+#home-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
 }
 
-section h1{
+#home-section h1{
     margin: 10px;
 }
 
@@ -28,7 +28,7 @@ section h1{
     nav h1{
         display: none;
     }
-    section div img{
+    #home-section div img{
         width: 400px;
     }
 }

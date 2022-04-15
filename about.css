@@ -1,0 +1,28 @@
+#about-section div{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: repeat(100px, 1fr);
+    grid-gap:100px;
+    justify-content: center;
+}
+#about-section h1{
+    margin:40px 20px;
+}
+#P{
+    display: none;
+}
+
+@media (max-width:600px){
+    #P{
+        display: block;
+    }
+    #PG{
+        display: none;
+    }
+    #about-section div{
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(100px, 9fr);
+        grid-gap:50px;
+        justify-content: center;
+    }
+}
