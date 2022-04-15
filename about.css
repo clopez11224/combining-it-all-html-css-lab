@@ -12,7 +12,7 @@
     display: none;
 }
 
-@media (max-width:600px){
+@media (max-width:850px){
     #P{
         display: block;
     }
@@ -20,6 +20,15 @@
         display: none;
     }
     #about-section div{
+        grid-template-columns:  200px 200px;
+        grid-template-rows: repeat(100px, 9fr);
+        grid-gap:50px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+     #about-section div{
         grid-template-columns: 200px;
         grid-template-rows: repeat(100px, 9fr);
         grid-gap:50px;
